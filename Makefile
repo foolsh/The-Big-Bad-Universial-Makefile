@@ -1,9 +1,9 @@
-TARGET = file-info
+TARGET = CHANGE_ME
 LIBS = -lm
 CC = gcc
 CFLAGS = -g -Wall
 
-.PHONY: default all clean dump asm
+.PHONY: default all clean dump asm profile
 
 default: $(TARGET)
 
