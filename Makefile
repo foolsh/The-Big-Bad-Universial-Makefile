@@ -35,3 +35,7 @@ asm:
 
 profile:
 	gcc -pg $(TARGET).c -o $(TARGET)
+
+print-%:
+	@echo '$*=$($*)'
+
